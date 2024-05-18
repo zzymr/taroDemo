@@ -1,6 +1,6 @@
 
-import { useLaunch } from "@tarojs/taro"
-import { Provider } from 'react-redux'
+import { useLaunch } from '@tarojs/taro'
+import { Provider } from "react-redux"
 
 import './app.less'
 
