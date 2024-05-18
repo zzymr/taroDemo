@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-echo "测试"
+echo "测试 lint-staged"
 
 pnpm lint-staged --allow-empty "$1"

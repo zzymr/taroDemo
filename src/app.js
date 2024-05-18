@@ -3,7 +3,7 @@ import { useLaunch } from '@tarojs/taro'
 
 import './app.less'
 
-console.log('11112234')
+console.log('1111223433')
 
 
 function App({ children }) {
