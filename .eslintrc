@@ -3,7 +3,10 @@
   "rules": {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    // 强制使用一致的单引号
+    "quotes": ["error", "single"],
     // 未重新赋值的变量使用 const 而不是 let
-    "prefer-const": "warn"
+    "prefer-const": "warn",
+    "import/no-commonjs": "off"
   }
 }
